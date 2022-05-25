@@ -8,7 +8,7 @@ WORKDIR /usr/src/app
 # where available (npm@5+)
 COPY . .
 
-COPY /server/mongodb-proxy.js /usr/src/app/
+COPY /dist/server /usr/src/app/
 RUN npm install
 
 EXPOSE 3333
