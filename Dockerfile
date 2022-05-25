@@ -12,6 +12,6 @@ RUN npm install
 
 EXPOSE 3333
 
-CMD [ "node", "/server/mongodb-proxy.js" ]
+CMD [ "node", "/usr/src/app/server/mongodb-proxy.js" ]
 
  
